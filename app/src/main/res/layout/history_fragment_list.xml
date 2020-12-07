@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="60dp"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Manual: Cross-Country Skiing"
+        android:layout_alignParentLeft="true"
+        android:gravity="right"
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:id="@+id/input_activity_type_text"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:text="109 kms, 123 mins"
+        android:layout_height="20dp"
+        android:id="@+id/distance_duration_text"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:layout_toRightOf="@+id/input_activity_type_text"
+        android:text="2020-04-27 24:00"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_height="60dp"
+        android:id="@+id/date_time_text"
+        >
+    </TextView>
+
+
+
+</RelativeLayout>

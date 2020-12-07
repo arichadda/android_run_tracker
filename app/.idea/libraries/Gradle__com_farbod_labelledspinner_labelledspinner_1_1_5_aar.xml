@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.farbod.labelledspinner:labelledspinner:1.1.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51042bd0966f3145dcaa5210765645ac/jetified-labelledspinner-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51042bd0966f3145dcaa5210765645ac/jetified-labelledspinner-1.1.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.farbod.labelledspinner/labelledspinner/1.1.5/1970cac22a7a48e385ed5f5c1fa5b53c2c90f293/labelledspinner-1.1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.farbod.labelledspinner/labelledspinner/1.1.5/77e3c9b359bf50f7151131b97bb3f3d05e208a06/labelledspinner-1.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

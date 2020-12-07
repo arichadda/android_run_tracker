@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/start_frag_scroll">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.farbod.labelledspinner.LabelledSpinner
+        android:id="@+id/start_input_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:labelText="@string/input_type"
+        android:padding="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+    </com.farbod.labelledspinner.LabelledSpinner>
+
+    <com.farbod.labelledspinner.LabelledSpinner
+        android:id="@+id/start_activity_spinner"
+        android:layout_width="match_parent"
+        android:padding="28dp"
+        app:labelText="@string/activity_type"
+        android:layout_marginBottom="80dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_input_spinner">
+    </com.farbod.labelledspinner.LabelledSpinner>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/start_floating_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/teal"
+        android:src="@drawable/ic_play_arrow_black"
+        app:borderWidth="0dp"
+        app:fabCustomSize="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_activity_spinner"
+        app:layout_constraintVertical_bias="0.282">
+
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

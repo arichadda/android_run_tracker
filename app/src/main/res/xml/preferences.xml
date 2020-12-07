@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <PreferenceCategory
+        android:title="Application Settings"
+        app:iconSpaceReserved="false">
+    </PreferenceCategory>
+
+    <SwitchPreference
+        android:key="preference_switch"
+        android:title="Privacy Settings"
+        android:summary="Posting your records anonymously"
+        app:iconSpaceReserved="false"
+        >
+    </SwitchPreference>
+
+    <Preference
+        android:key="preference_units"
+        android:title="Unit Preference"
+        android:summary="Select the units"
+        app:iconSpaceReserved="false"
+        >
+    </Preference>
+
+    <Preference
+        android:key="preference_webpage"
+        android:title="Webpage"
+        android:summary="http://cs.dartmouth.edu/~campbell/cs65/cs65.html"
+        app:iconSpaceReserved="false"
+        >
+    </Preference>
+
+    <PreferenceCategory
+        android:title="Account Settings"
+        app:iconSpaceReserved="false">
+    </PreferenceCategory>
+
+    <Preference
+        android:key="preference_sign_out"
+        android:title="Sign Out"
+        app:iconSpaceReserved="false">
+    </Preference>
+
+</androidx.preference.PreferenceScreen>

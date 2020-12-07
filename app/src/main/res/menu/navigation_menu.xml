@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Start"
+        android:id="@+id/nav_start"
+        android:icon="@drawable/ic_start_circle" />
+
+    <item android:title="History"
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history_icon" />
+
+</menu>

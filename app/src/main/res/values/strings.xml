@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">My Runs</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="sign_in_text">Sign in</string>
+    <string name="register_text">Register</string>
+    <string name="name_text">Name</string>
+    <string name="female_text">Female</string>
+    <string name="male_text">Male</string>
+    <string name="phone_text">Phone</string>
+    <string name="major_text">Major</string>
+    <string name="dartmouth_class_text">Dartmouth Class</string>
+    <string name="filler">filler</string>
+    <string name="ui_profile_photo_content_description">Your Profile Photo</string>
+    <string name="ui_button_change_title">Change</string>
+    <string name="ui_profile_photo_picker_title">Select profile image</string>
+    <string name="dialog_fragment_tag_photo_picker">dialog fragment tag photo picker</string>
+    <string name="profile_photo_file_name">profile_photo.png</string>
+    <string name="register_activity_name">Sign Up</string>
+    <string name="sign_in_activity_name">Sign In</string>
+    <string name="main_activity_name">Main Activity</string>
+    <string name="kebab_menu_settings">Settings</string>
+    <string name="kebab_menu_edit_profile">Edit Profile</string>
+    <string name="ui_profile_photo_title">Profile Photo:</string>
+    <string name="ui_button_save_title">Save</string>
+    <string name="map_activity_name">Map</string>
+    <string name="manual_entry_activity_name">Manual Entry Activity</string>
+    <string name="menu_profile_save">Save</string>
+    <string name="settings_activity_name">Settings</string>
+    <string name="metric_kilometers">Metric (Kilometers)</string>
+    <string name="imperial_miles">Imperial (Miles)</string>
+    <string name="dialog_fragment_tag_unit_preference">dialog fragment tag unit preference</string>
+    <string name="dialog_fragment_tag_comments">dialog fragment tag comments</string>
+    <string name="dialog_fragment_tag_numbers">dialog fragment tag numbers</string>
+    <string name="input_type">Input Type</string>
+    <string name="activity_type">Activity Type</string>
+    <string name="textview_a">TextView1</string>
+    <string name="textview_b">TextView2</string>
+    <string name="menu_profile_delete">Delete</string>
+
+
+    <string-array name="ui_profile_photo_picker_items">
+        <item>Take picture from camera</item>
+        <item>Take picture from gallery</item>
+    </string-array>
+
+    <string-array name="input_array">
+        <item>Manual</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="activities_array">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="unit_preference">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+
+</resources>
