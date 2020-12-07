@@ -1,14 +1,5 @@
-# README for MyRuns3
+# README for Run Tracker App
 
-### Added:
----
+This is an Android run tracking app that uses the Google Maps API and Google Activity Recognition API. All the data is stored locally using the Android SQL Lite database. To run and compile this app, you will need to download Android Studio from here[link](https://www.google.com/search?client=firefox-b-1-d&q=android+studio).
 
-* SQLite Database to handle activity history
-* Successfully adds to database on instantion of new record
-* Successfully pulls from databse on query
-* Successfully deletes record from database 
-* All database querying was done using asynchronous tasks 
-* Edge cases handled 
-* Updates and converts units between km and mi from settings selection
-* Updated MVC model
-* Late day used
+
